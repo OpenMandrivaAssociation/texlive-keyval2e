@@ -1,3 +1,9 @@
+# revision 23698
+# category Package
+# catalog-ctan /macros/latex/contrib/keyval2e
+# catalog-date 2011-08-26 11:26:23 +0200
+# catalog-license lppl1.3
+# catalog-version 0.0.2
 Name:		texlive-keyval2e
 Version:	0.0.2
 Release:	1
@@ -44,6 +50,7 @@ package.
 %doc %{_texmfdistdir}/doc/latex/keyval2e/keyval2e-examples.tex
 %doc %{_texmfdistdir}/doc/latex/keyval2e/keyval2e-guide.pdf
 %doc %{_texmfdistdir}/doc/latex/keyval2e/keyval2e-guide.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

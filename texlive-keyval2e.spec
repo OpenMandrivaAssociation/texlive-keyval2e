@@ -6,7 +6,7 @@
 # catalog-version 0.0.2
 Name:		texlive-keyval2e
 Version:	0.0.2
-Release:	3
+Release:	4
 Summary:	A lightweight and robust key-value parser
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/keyval2e

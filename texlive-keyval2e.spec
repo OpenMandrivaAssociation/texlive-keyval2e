@@ -1,6 +1,6 @@
 Name:		texlive-keyval2e
 Version:	23698
-Release:	1
+Release:	2
 Summary:	A lightweight and robust key-value parser
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/keyval2e

@@ -3,7 +3,7 @@ Version:	23698
 Release:	2
 Summary:	A lightweight and robust key-value parser
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/keyval2e
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/keyval2e
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/keyval2e.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/keyval2e.doc.r%{version}.tar.xz
